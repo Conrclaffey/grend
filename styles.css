@@ -1,19 +1,18 @@
-body {
-	font-family: 'Montserrat', sans-serif;
-}
+body { font-family: 'Montserrat', sans-serif}
+strong { font-weight: bolder, !important; }
 #one {
 	height: 100vh;
 	width: 100vw;
-	background-image: url('pics/clouds.jpg');
-	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url('pics/clouds.jpg');
+	background-size: cover;
 }
 .logo  {
 	display: flex;
 	flex-direction: column;
-	color: #ffffff;
+	color: #aaaaaa;
 	font-size: 30px;
 	text-align: center;
 }
@@ -21,6 +20,21 @@ body {
 	width: 200px;
 	align-self: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #two {
 	width: 100vw;
 	border-style: ;
