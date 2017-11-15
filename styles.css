@@ -1,26 +1,58 @@
 body { font-family: 'Montserrat', sans-serif}
 strong { font-weight: bolder, !important; }
-#one {
+.one {
 	height: 100vh;
 	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url('pics/clouds.jpg');
-	background-size: cover;
 }
 .logo  {
+	padding-top: 40%;
 	display: flex;
 	flex-direction: column;
 	color: #aaaaaa;
 	font-size: 30px;
 	text-align: center;
 }
+@media (min-width: 500px) {
+	.logo {
+		padding-top: 30%;
+	}
+}
+@media (min-width: 690px) {
+	.logo {
+		padding-top: 20%;
+	}
+}
+@media (min-width: 1400px) {
+	.logo {
+		padding-top: 15%;
+	}
+}
 .logo img {
 	width: 200px;
 	align-self: center;
 }
-
+.c1 {	
+	background-image: url('pics/landing/clouds.jpg');
+	background-size: cover;
+}
+.c2 {
+	background-image: url('pics/landing/fingersCropped.jpg');
+	background-size: cover;
+}
+@media (max-width: 448px) {
+	.c2 {
+		background-image: url('pics/landing/fingers.jpg');
+	}
+}
+@media (min-width: 850px) {
+	.c2 {
+		background-image: url('pics/landing/fingersCropped2.jpg');
+	}
+}
+.c3 {
+	background-image: url('pics/landing/window.jpg');
+	background-size: cover;
+}
 
 
 
