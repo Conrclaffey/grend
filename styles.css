@@ -58,7 +58,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 .teeitem {
-	position: relative;
 	max-width: 50%;
 	margin-bottom: 10px;
 	text-align: center;
@@ -125,14 +124,10 @@ body {
 	}
 }
 
-#three {
-	width: 100vw;
-	height: 130vh;
-	text-align: center;
-	border-style: ;
-}
+
 .threeone {
 	height: 20%;
+	text-align: center;
 }
 @media (max-width: 441px) {
 .threeone p {
@@ -142,7 +137,7 @@ body {
 .webdesign {
 	background-image: url('pics/grendleafCropped.jpg');
 	background-size: cover;
-	height: 18%;
+	height: 20vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -155,7 +150,7 @@ body {
 .photography {
 	background-image: url('pics/cctvCropped.jpg');
 	background-size: cover;
-	height: 18%;
+	height: 20vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -166,10 +161,11 @@ body {
 	max-width: 150px;
 }
 .call {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 39%;
+	
 	color: white;
 	background-color: #ff0000;
 	padding-top: 20px;
@@ -181,6 +177,7 @@ body {
 }
 .call img {
 	width: 45px;
+	height: 45px;
 	margin-right: 10px;
 	margin-left: 10px;
 	filter: brightness(0) invert(1);
@@ -193,6 +190,7 @@ body {
 	-webkit-filter: hue-rotate(250deg); 
 	filter: hue-rotate(250deg);
 }
-figcaption strong {
-	font-weight: bolder;
+.socialbottom {
+	display: flex;
+	justify-content: center;
 }
