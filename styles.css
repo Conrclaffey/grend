@@ -62,32 +62,47 @@ strong { font-weight: bolder, !important; }
 
 
 
-
-
-
-
-
-
-
-
-
-
 #two {
 	width: 100vw;
 	padding-top: 5%;
+	text-align: center;
+	font-size: large;
 }
+
 .teesh1 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 70px;
 	border-bottom-style: solid;
 	border-color: #ff0000;
 	border-width: 8px;
-	width: 110px;
+	width: 150px;
 	margin: auto;
 	font-weight: 900;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	margin-top: 10px;
 }
+
+
+
+.teegallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+}
+.teeitem {
+	
+	margin-bottom: 10px;
+	text-align: center;
+}
+.teeitem img {
+	height: auto;
+	max-width: 100%;
+	max-height: 500px;
+}
+
+
 .msg1 {
 	height: 20%;
 	text-align: center;
@@ -102,138 +117,10 @@ strong { font-weight: bolder, !important; }
 	margin-right: 10px;
 	margin-left: 10px;
 }
-.teegallery {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	font-family: 'Montserrat', sans-serif;
-}
-.teeitem {
-	max-width: 50%;
-	margin-bottom: 10px;
-	text-align: center;
-}
-.teeitem img {
-	height: auto;
-	max-width: 100%;
-	max-height: 500px;
-}
-.tee {
-	
-}
-
-.teebackground {
-	position: absolute;
-	z-index: -1;
-	width: 60%;
-	height: 60%;
-	left: 18%;
-	top: 15%;
-	background-color: #888888;
-}
-@media (max-width: 600px) and (min-width: 425px) {
-	.teebackground {
-		position: absolute;
-		z-index: -1;
-		width: 47%;
-		height: 47%;
-		left: 25%;
-		top: 19%;
-		background-color: #888888;
-	}
-}
-@media (max-width: 424px) and (min-width: 376px;) {
-	.teebackground {
-		position: absolute;
-		z-index: -1;
-		width: 40%;
-		height: 47%;
-		left: 28%;
-		top: 16%;
-		background-color: #888888;
-	}
-}
-@media (max-width: 375px) {
-	.teebackground {
-		position: absolute;
-		z-index: -1;
-		width: 38%;
-		height: 44%;
-		left: 29%;
-		top: 18%;
-		background-color: #888888;
-	}
-}
-@media (max-width: 320px) {
-	.teebackground {
-		position: absolute;
-		z-index: -1;
-		width: 38%;
-		height: 40%;
-		left: 30%;
-		top: 18%;
-		background-color: #888888;
-	}
-}
 
 
-.threeone {
-	height: 20%;
-	text-align: center;
-}
-@media (max-width: 441px) {
-.threeone p {
-	font-size: 11px;
-}
-}
-.webdesign {
-	background-image: url('pics/grendleafCropped.jpg');
-	background-size: cover;
-	height: 20vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.webdesign p {
-	background-color: #ff0000;
-	color: white;
-	max-width: 150px;
-}
-.photography {
-	background-image: url('pics/cctvCropped.jpg');
-	background-size: cover;
-	height: 20vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.photography p {
-	background-color: #ff0000;
-	color: white;
-	max-width: 150px;
-}
-.call {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	
-	color: white;
-	background-color: #ff0000;
-	padding-top: 20px;
-}
-.call h1 {
-	margin-top: 0;
-	font-weight: bolder;
-	font-size: 30px;
-}
-.call img {
-	width: 45px;
-	height: 45px;
-	margin-right: 10px;
-	margin-left: 10px;
-	filter: brightness(0) invert(1);
-}
+
+
 .grayscale {
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
@@ -241,8 +128,4 @@ strong { font-weight: bolder, !important; }
 .huerotate {
 	-webkit-filter: hue-rotate(250deg); 
 	filter: hue-rotate(250deg);
-}
-.socialbottom {
-	display: flex;
-	justify-content: center;
 }
