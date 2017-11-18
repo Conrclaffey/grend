@@ -59,8 +59,27 @@ strong { font-weight: bolder, !important; }
 	background-size: cover;
 }
 
+.somestuff {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 80vh;
+}
 
-
+.glyicon {
+      color: #f4511e;
+      font-size: 200px;
+}
+.row {
+	padding: 20px;
+}
+.col-sm-4 {
+	display: flex;
+	justify-content: space-around;
+}
+.col-sm-8 {
+	padding: 20px;
+}
 
 #two {
 	width: 100vw;
