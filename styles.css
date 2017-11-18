@@ -5,6 +5,11 @@ strong { font-weight: bolder, !important; }
 	width: 100vw;
 }
 .logo  {
+	position: absolute;
+	z-index: 10000;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
 	padding-top: 40%;
 	display: flex;
 	flex-direction: column;
