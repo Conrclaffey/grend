@@ -63,7 +63,7 @@ strong { font-weight: bolder, !important; }
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	min-height: 80vh;
+	min-height: 100vh;
 }
 
 .glyicon {
@@ -72,6 +72,9 @@ strong { font-weight: bolder, !important; }
 }
 .row {
 	padding: 20px;
+	font-size: large;
+	display: flex;
+	align-items: center;
 }
 .col-sm-4 {
 	display: flex;
@@ -84,6 +87,7 @@ strong { font-weight: bolder, !important; }
 #two {
 	width: 100vw;
 	padding-top: 5%;
+	border-top-style: ridge;
 	text-align: center;
 	font-size: large;
 }
