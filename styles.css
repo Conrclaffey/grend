@@ -75,10 +75,13 @@ strong { font-weight: bolder, !important; }
 	font-size: large;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .col-sm-4 {
 	display: flex;
 	justify-content: space-around;
+
 }
 .col-sm-8 {
 	padding: 20px;
